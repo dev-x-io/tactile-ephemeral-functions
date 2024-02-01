@@ -1,5 +1,10 @@
 #\!$(echo $SHELL)
 
+# Define a function to get user agreement
+get_agreement() {
+    echo "Do You Agree? [yes/no]: "
+    read agreement
+}
 hello_picoxpit() {
     APP_NAME="PicoXpit"
     APP_EMOJI="💦"
@@ -44,8 +49,8 @@ hello_picoxpit() {
     # Prompt for user agreement
     echo "Do You Agree? [yes/no]:" 
     echo
-    read agreement
-
+    get_agreement
+    
     if [ "$agreement" != "yes" ]; then
         echo "You did not agree to the Terms of Service. Exiting..."
         exit 1
