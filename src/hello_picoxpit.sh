@@ -80,7 +80,7 @@ hello_picoxpit() {
     echo "Requirements:"
     echo
     echo "To unleash the power of $APP_NAME, you need:"
-    echo "1. $APP_NAME (TiPo)"
+    echo "1. $APP_NAME (TiPi)"
     echo "2. A Linux shell"
     echo "3. A free USB port"
     echo "4. A dash of trust"
@@ -94,7 +94,7 @@ hello_picoxpit() {
     echo "--------------------------------------------------------------------------------------------------------"
     echo
     # Highlight $APP_NAME's Abilities
-    echo "$APP_NAME, also known as TiPo, can simplify your daily routine and make automating tasks brutally easy!"
+    echo "$APP_NAME, also known as a TiPi, I'll spare you the details.. can simplify your daily routine and make automating tasks brutally easy!"
     echo "It uses HID commands as actual 'COMMANDS,' guiding you through keystrokes."
     echo
     echo "--------------------------------------------------------------------------------------------------------"
