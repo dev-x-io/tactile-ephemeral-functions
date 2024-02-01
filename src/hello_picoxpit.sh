@@ -46,26 +46,17 @@ hello_picoxpit() {
     echo
     echo "6. Share the Knowledge: If $APP_NAME helps you unlock a new level of Linux mastery, consider sharing the love. Teach a friend, document your journey, or simply high-five a fellow enthusiast in solidarity."
     echo
-    # Prompt for user agreement
-    echo "Do You Agree? [yes/no]:" 
-    echo
-    get_agreement
-    
-    if [ "$agreement" != "yes" ]; then
-        echo "You did not agree to the Terms of Service. Exiting..."
-        exit 1
-    fi
 
-    mkdir -p ~/X/.secrets
-    chmod 700 ~/X/.secrets
+    # mkdir -p ~/X/.secrets
+    # chmod 700 ~/X/.secrets
 
-    uuid=$(uuidgen)
-    func_dir=~/X/.func/${uuid}
-    mkdir -p "${func_dir}"
-    cp "$0" "${func_dir}/$(basename "$0")"
+    # uuid=$(uuidgen)
+    # func_dir=~/X/.func/${uuid}
+    # mkdir -p "${func_dir}"
+    # cp "$0" "${func_dir}/$(basename "$0")"
 
-    salt_file=~/X/.secrets/${uuid}.bin
-    head -c 32 /dev/urandom > "${salt_file}"
+    # salt_file=~/X/.secrets/${uuid}.bin
+    # head -c 32 /dev/urandom > "${salt_file}"
 
     # Start the story
     echo "--------------------------------------------------------------------------------------------------------"
