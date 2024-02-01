@@ -117,11 +117,8 @@ function hello_picoxpit() {
     echo "Hey $GIT_USER, wouldn't it be great if your Linux adventures were even more personalized on $(hostname)?"
     echo
     echo "--------------------------------------------------------------------------------------------------------"
-    echo "Here you have the tree your currently in:"
-    # Display a nice directory tree of only directories
-    echo "Directory Tree:"
-    echo "----------------"
-    tree -d
+    echo
+
 }
 
 # Call the Ephemeral Shell X function
