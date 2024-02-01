@@ -1,6 +1,6 @@
 #\!$(echo $SHELL)
 
-function hello_picoxpit() {
+hello_picoxpit() {
     APP_NAME="PicoXpit"
     APP_EMOJI="💦"
     SOURCE_EMOJI="🤖"
