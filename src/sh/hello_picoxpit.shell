@@ -42,7 +42,9 @@ hello_picoxpit() {
     echo "6. Share the Knowledge: If $APP_NAME helps you unlock a new level of Linux mastery, consider sharing the love. Teach a friend, document your journey, or simply high-five a fellow enthusiast in solidarity."
     echo
     # Prompt for user agreement
-    read -p "Do You Agree? [yes/no]: " agreement
+    echo "Do You Agree? [yes/no]:" 
+    echo
+    read agreement
 
     if [ "$agreement" != "yes" ]; then
         echo "You did not agree to the Terms of Service. Exiting..."
