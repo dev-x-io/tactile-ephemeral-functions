@@ -1,7 +1,6 @@
 # Tactile-Ephemeral-Functions for PicoXpit
 
 A marvelous low-power 'Brain-Fart' on to automatically taking care of (potential) 'smelly' stuff with the use of a Rpi Pico.
-Certainly, here's the raw markdown content for your README.md without code blocks:
 
 ![TiPi Logo](images/TiPi-logo.png)
 

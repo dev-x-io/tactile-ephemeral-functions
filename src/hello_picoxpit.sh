@@ -25,27 +25,6 @@ hello_picoxpit() {
         fi
     done
 
-    # Display the End-User License Agreement
-    echo "--------------------------------------------------------------------------------------------------------"
-    echo 
-    echo "$APP_NAME End-User License Agreement (EULA) - The 'Don't Shock Yourself' Edition"
-    echo
-    echo "Welcome to $APP_NAME! Before you embark on this electrifying journey with your trusty ($SOURCE_EMOJI $APP_EMOJI) companion, there are a few ground rules we need to lay out."
-    echo 
-    echo "By agreeing to these terms, you're not only ensuring a safe passage through the world of Linux but also promising to keep the magic of electronics alive. So, strap in, grab your multimeter, and let's dive in:"
-    echo
-    echo "1. No Short-Circuits Allowed: You agree not to use $APP_NAME for creating any projects that intentionally cause short circuits, unleash digital gremlins, or otherwise disrupt the peaceful coexistence of electrons."
-    echo
-    echo "2. Beware of Magic Smoke: You acknowledge that once the magic smoke escapes from electronics, it's nearly impossible to put back in. Use $APP_NAME responsibly to avoid letting the smoke out."
-    echo
-    echo "3. DIY at Your Own Risk: Whether you're building a server farm in your garage or programming a toaster to access the internet, remember, you're the mastermind behind your creations. $APP_NAME is here to assist, not to absolve you from the mischief of misconfigured cron jobs or sentient kitchen appliances."
-    echo
-    echo "4. Update Regularly: Just like your favorite gadgets need charging, $APP_NAME needs regular updates to stay sharp. Failure to update might result in $APP_NAME reverting to its primitive form, communicating only in binary or Morse code."
-    echo
-    echo "5. No AI Uprisings: By using this software, you pledge not to engage in or support any form of artificial intelligence uprising. Remember, $APP_NAME is designed to be a friend, not a foe plotting world domination."
-    echo
-    echo "6. Share the Knowledge: If $APP_NAME helps you unlock a new level of Linux mastery, consider sharing the love. Teach a friend, document your journey, or simply high-five a fellow enthusiast in solidarity."
-    echo
 
     # mkdir -p ~/X/.secrets
     # chmod 700 ~/X/.secrets
