@@ -2,7 +2,7 @@
 
 A marvelous low-power 'Brain-Fart' on to automatically taking care of (potential) 'smelly' stuff with the use of a Rpi Pico.
 
-![TiPi Logo](images/TiPi-logo.png)
+![TiPi Logo](images/tipi-logo.png)
 
 ## Introduction
 
@@ -57,4 +57,4 @@ Feel free to join our fictional organization, PicoXpit, and contribute to this e
 
 This project is purely fictional, and the code provided is for entertainment and educational purposes only. Have fun exploring the Ephemeral Shell Functions with TiPi by your side!
 
-![TiPi at Work](images/TiPi-working.png)
+![TiPi at Work](images/tipi-working.png)
